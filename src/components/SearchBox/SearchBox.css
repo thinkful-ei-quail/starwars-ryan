@@ -1,0 +1,11 @@
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 60px 0;
+  background-color: #0a2c4e;
+}
+
+form > * {
+  margin: 10px 0;
+}

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import SearchBox from '../components/SearchBox/SearchBox';
+import Results from '../components/Results/Results';
 
 export default class App extends Component {
   constructor(props) {
@@ -11,7 +13,9 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>Warptrail React Application Interface</h1>
+        <h1>Star Wars Search</h1>
+        <SearchBox />
+        <Results />
       </div>
     );
   }

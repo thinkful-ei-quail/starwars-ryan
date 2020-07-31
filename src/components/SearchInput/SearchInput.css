@@ -1,0 +1,12 @@
+input {
+  width: 75%;
+  max-width: 400px;
+}
+
+button {
+  width: 30%;
+}
+
+label {
+  margin-right: 8px;
+}
